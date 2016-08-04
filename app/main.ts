@@ -1,5 +1,18 @@
-import { bootstrap }    from '@angular/platform-browser-dynamic';
+import { bootstrap }           from '@angular/platform-browser-dynamic';
 
-import { HeroAppComponent } from './app.component';
+import { HeroesListComponent } from './heroes-list.component';
+import { HeroesService }       from './heroes.service';
 
-bootstrap(HeroAppComponent, []);
+bootstrap(HeroesListComponent, [HeroesService]);
+
+/* Documentation artifact below
+ // Don't do this!
+ bootstrap(HeroesListComponent, [HeroesService, RestoreService])
+ */
+
+
+/*
+ Copyright 2016 Google Inc. All Rights Reserved.
+ Use of this source code is governed by an MIT-style license that
+ can be found in the LICENSE file at http://angular.io/license
+ */

@@ -8,6 +8,7 @@ import { Hero } from './hero';
     <div>
       <span>Name:</span>
       <span>{{hero.name}}</span>
+      <div>{{hero.power}}</div>
     </div>`
 })
 export class HeroCardComponent {

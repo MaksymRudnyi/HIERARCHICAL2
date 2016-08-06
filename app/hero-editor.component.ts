@@ -5,7 +5,7 @@ import { Hero } from './hero';
 
 @Component({
     selector: 'hero-editor',
-    providers: [RestoreService],
+    //providers: [RestoreService],
     template: `
     <div>
       <span>Name:</span>
